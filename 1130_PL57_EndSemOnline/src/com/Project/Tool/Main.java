@@ -41,7 +41,7 @@ public class Main {
 		sprint1.AddStory(s1);
 		sprint1.AddStory(s2);
 		sprint1.AddStory(s3);
-		
+		sprint1.setDuration(5);
 		sprint1.DisplayStoryDetail();
 		
 	}

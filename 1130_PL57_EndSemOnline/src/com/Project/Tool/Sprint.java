@@ -7,7 +7,16 @@ import java.util.ArrayList;
 public class Sprint {
 
 	ArrayList<Story> stories = new ArrayList<Story>();
+	int duration;
 	
+	public int getDuration() {
+		return duration;
+	}
+
+	public void setDuration(int duration) {
+		this.duration = duration;
+	}
+
 	Sprint(){
 		
 	}
@@ -28,5 +37,6 @@ public class Sprint {
 		for(Story st: stories){
 			st.DisplayStory();
 		}
+		System.out.println("Sprint Duration is: "+ this.duration);
 	}
 }

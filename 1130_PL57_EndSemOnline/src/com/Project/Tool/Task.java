@@ -4,7 +4,7 @@ public class Task {
 	String taskName;
 	int hour;
 	
-	Task(String task, int hour){
+	public Task(String task, int hour){
 		this.taskName = task;
 		this.hour = hour;
 	}
