@@ -28,8 +28,7 @@ public class Main {
 		team.AddMember(sm);
 		
 		team.displayTeam();
-		
-		
+				
 		Story s1 = new Story(new Task("Login", 3), 1, 5);
 		//s1.DisplayStory();
 		Story s2 = new Story(new Task("Database Creation", 1), 6, 3);

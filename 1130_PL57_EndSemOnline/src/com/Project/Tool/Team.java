@@ -22,7 +22,16 @@ public class Team {
 		for(Employee emp: members){
 			emp.display();
 		}
-		
+		System.out.println("Total members is: " + CountMembers());
+	}
+	
+	public int CountMembers(){
+		int count = 0;
+		for(Employee e: members)
+		{
+			count++;
+		}
+		return count;
 	}
 	
 }
