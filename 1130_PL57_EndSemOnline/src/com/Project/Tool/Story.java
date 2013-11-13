@@ -5,7 +5,7 @@ public class Story {
 	int priNum;
 	int storyPoint;
 	
-	Story(Task task, int pn, int sp){
+	public Story(Task task, int pn, int sp){
 		this.task = task;
 		this.priNum = pn;
 		this.storyPoint = sp;

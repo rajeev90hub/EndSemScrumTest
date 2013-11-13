@@ -17,7 +17,7 @@ public class Sprint {
 		this.duration = duration;
 	}
 
-	Sprint(){
+	public Sprint(){
 		
 	}
 
