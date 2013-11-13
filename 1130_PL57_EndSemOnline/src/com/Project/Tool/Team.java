@@ -19,7 +19,9 @@ public class Team {
 
 	public void displayTeam() {
 		// TODO Auto-generated method stub
-		
+		for(Employee emp: members){
+			emp.display();
+		}
 		
 	}
 	

@@ -23,4 +23,10 @@ public class Sprint {
 	public void AddStory(Story story){
 		this.stories.add(story);
 	}
+	
+	public void DisplayStoryDetail(){
+		for(Story st: stories){
+			st.DisplayStory();
+		}
+	}
 }
