@@ -37,6 +37,11 @@ public class Main {
 		Story s3 = new Story(new Task("UserInterface", 5), 7, 7);
 		s3.DisplayStory();
 		
+		Sprint sprint1 = new Sprint();
+		sprint1.AddStory(s1);
+		sprint1.AddStory(s2);
+		sprint1.AddStory(s3);
+		
 	}
 
 }
